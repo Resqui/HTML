@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <meta name="author" content="Matias Rescala">
+
+</head>
+<body>
+ 
+    <h1>Titulo de la pagina</h1>
+    <p> Texto de ejemplo </p>
+    <form action="procesamiento_datos.php" method="post">  
+        <input type="text" id="nombre" name="grupo_datos" placeholder="Nombre"><br>
+        <input type="text" id="apellido" name="grupo_datos" placeholder="Apellido"><br>
+        <input type="password" id="contra" name="grupo_datos" placeholder="Contrasenha"><br>
+        <textarea id="mensaje" name="grupo_datos" placeholder="Mensaje"></textarea><br>
+        <select name="frutas">
+
+            <optgroup label="frutas citricas"> 
+            
+            <option value="limon"> Limon</option>
+            <option value="Naranja"> Narnaja</option>
+            
+            </optgroup>
+
+           <optgroup label="frutas no citricas"> 
+            
+            <option value="Sandia"> Sandia</option>
+          
+            </optgroup>
+
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+</body>
+
+</html>
